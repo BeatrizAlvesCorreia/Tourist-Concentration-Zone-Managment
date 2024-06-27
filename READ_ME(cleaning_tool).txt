@@ -1,7 +1,7 @@
-Aspetos a ter em conta:
+To consider regarding the cleaning tool:
 
-1. Mantém as colunas "Grid_ID", "Datetime", "C1", "C2", "C3", "C4", "D1" e "E8"
+1. Keep wanted columns: "Grid_ID", "Datetime", "C1", "C2", "C3", "C4", "D1" and "E8"
 
-2. Remove duplicados, se existirem
+2. Removes duplicate values, if any
 
-3. Remove NAs, se existirem
+3. Removes NAs, if any 
