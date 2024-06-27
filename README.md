@@ -19,14 +19,14 @@ Welcome to the Tourist-Concentration-Zone-Management project repository. This pr
 The data used in this project is provided by the Lisbon City Council and the Vodafone telecommunications company. The dataset spans from September 2021 to June 2023, with the primary analysis period being June 2022 to June 2023. Due to confidentiality, the actual data is not included in this repository. Instead, we provide the process and methodology used for data analysis.
 
 ## Repository Contents
-README.md: This file.
-READ_ME(cleaning_tool).txt: Instructions for using the data cleaning tool.
-cleaning_tool.py: Python script for cleaning and preprocessing the dataset.
-modeling.ipynb: Jupyter notebook containing the modeling and predictive analysis.
-objective1_feature_engineering.ipynb: Feature engineering process for Objective 1.
-objective2_feature_engineering.ipynb: Feature engineering process for Objective 2.
-objective3_LSTM_predictions.ipynb: LSTM model implementation for Objective 3.
-wkt_data_understanding.ipynb: Initial data understanding and exploration.
+- README.md: This file.
+- READ_ME(cleaning_tool).txt: Instructions for using the data cleaning tool.
+- cleaning_tool.py: Python script for cleaning and preprocessing the dataset.
+- modeling.ipynb: Jupyter notebook containing the modeling and predictive analysis.
+- objective1_feature_engineering.ipynb: Feature engineering process for Objective 1.
+- objective2_feature_engineering.ipynb: Feature engineering process for Objective 2.
+- objective3_LSTM_predictions.ipynb: LSTM model implementation for Objective 3.
+- wkt_data_understanding.ipynb: Initial data understanding and exploration.
 
 # Methodology
 ## Business Understanding
