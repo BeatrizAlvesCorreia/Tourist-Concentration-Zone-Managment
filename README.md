@@ -22,7 +22,6 @@ The data used in this project is provided by the Lisbon City Council and the Vod
 - README.md: This file.
 - READ_ME(cleaning_tool).txt: Instructions for using the data cleaning tool.
 - cleaning_tool.py: Python script for cleaning and preprocessing the dataset.
-- modeling.ipynb: Jupyter notebook containing the modeling and predictive analysis.
 - objective1_feature_engineering.ipynb: Feature engineering process for Objective 1.
 - objective2_feature_engineering.ipynb: Feature engineering process for Objective 2.
 - objective3_LSTM_predictions.ipynb: LSTM model implementation for Objective 3.
