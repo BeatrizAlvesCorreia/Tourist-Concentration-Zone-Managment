@@ -1,7 +1,7 @@
 # Tourist-Concentration-Zone-Management
 
 ## Introduction
-Welcome to the Tourist-Concentration-Zone-Management project repository. This project was developed as part of the Internet of Things (IoT) for Smart Cities course, under the supervision of Professor João Carlos Ferreira. The primary aim of this project is to analyze data from sensors to identify and manage the most crowded areas in Lisbon, particularly focusing on tourist movement and traffic patterns. The methodology followed is CRISP-DM, which structures the data mining and analysis process.
+Welcome to the Tourist-Concentration-Zone-Management project repository. The primary aim of this project is to analyze data from sensors to identify and manage the most crowded areas in Lisbon, particularly focusing on tourist movement and traffic patterns. The methodology followed is CRISP-DM, which structures the data mining and analysis process.
 
 ## Project Objectives
 ### Objective 1 - Impact of Strikes on Road Traffic:
@@ -37,8 +37,7 @@ Initial analysis involved handling sample datasets due to computational constrai
 ## Data Preparation
 Cleaning Tool: A Python script was developed to streamline the data cleaning process.
 Feature Engineering: Variables were selected and transformed to facilitate analysis for each objective.
-Modeling
-An LSTM neural network model was implemented to predict the number of people in specific grid areas. The model was trained on data from January to June 2023 and evaluated for June 2022.
+Modeling: An LSTM neural network model was implemented to predict the number of people in specific grid areas. The model was trained on data from January to June 2023 and evaluated for June 2022.
 
 ## Evaluation
 The model's performance was evaluated based on its ability to predict traffic patterns and tourist concentrations. Future work includes refining the model for better accuracy.
@@ -47,19 +46,19 @@ The model's performance was evaluated based on its ability to predict traffic pa
 Results are visualized through PowerBI dashboards, providing insights into traffic patterns, tourist movements, and predictive analytics. The dashboards are designed to be informative and user-friendly.
 
 ### Objective 1: Impact of Strikes on Road Traffic
-Types of Strikes Analyzed: The analysis included total strikes, partial strikes, and strikes with minimum services.
-Traffic Patterns: The data indicated that during total and partial strikes, there was a significant increase in traffic congestion in major roads such as Ponte Vasco da Gama, A36 - Túnel do Grilo, and IC19.
-Comparison: Traffic patterns were compared between strike and non-strike days, showing higher congestion and longer travel times during strikes.
+- Types of Strikes Analyzed: The analysis included total strikes, partial strikes, and strikes with minimum services.
+- Traffic Patterns: The data indicated that during total and partial strikes, there was a significant increase in traffic congestion in major roads such as Ponte Vasco da Gama, A36 - Túnel do Grilo, and IC19.
+- Comparison: Traffic patterns were compared between strike and non-strike days, showing higher congestion and longer travel times during strikes.
 
 ### Objective 2: Tourist Movement and Nationality Analysis
-Tourist Concentration: The analysis revealed that tourist hotspots included Santa Maria Maior and Olivais (the latter due to its proximity to the airport).
-Nationalities: The top nationalities of tourists were from Spain, France, and Brazil.
-Temporal Patterns: The number of tourists was fairly consistent throughout the day, with a slight peak in the afternoon.
+- Tourist Concentration: The analysis revealed that tourist hotspots included Santa Maria Maior and Olivais (the latter due to its proximity to the airport).
+- Nationalities: The top nationalities of tourists were from Spain, France, and Brazil.
+- Temporal Patterns: The number of tourists was fairly consistent throughout the day, with a slight peak in the afternoon.
 
 ### Objective 3: Predicting Number of Distinct Terminals Using Neural Networks
-Predictive Model: The LSTM model was trained to predict the number of distinct terminals in specific grid areas.
-Evaluation: The model showed reasonable accuracy in predicting the number of people, though it struggled with irregular events like concerts or festivals.
-Insights: Predictions indicated areas of high concentration, helping in planning for crowd management and resource allocation.
+- Predictive Model: The LSTM model was trained to predict the number of distinct terminals in specific grid areas.
+- Evaluation: The model showed reasonable accuracy in predicting the number of people, though it struggled with irregular events like concerts or festivals.
+- Insights: Predictions indicated areas of high concentration, helping in planning for crowd management and resource allocation.
 
 ## Conclusion
 This project provides a comprehensive analysis of crowded zones in Lisbon, offering valuable insights for urban planning and crowd management. The predictive models and visualizations assist in making informed decisions to enhance city efficiency.
