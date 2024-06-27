@@ -1,14 +1,17 @@
+# Import libraries
 import numpy as np
 import pandas as pd
 import os
 import glob
 import re
 
+# Sort path
 root = os.getcwd()
 path = os.path.join(root, 'data')
 all_files = glob.glob(path + "/*.csv")
 keep_cols = ["Grid_ID", "Datetime", "C1", "C2", "C3", "C4", "D1", "E8"]
 
+# Main function
 def clean_df():
     for path in all_files:
         match = re.search(r'\\(\w+)\.csv$', path)
@@ -18,4 +21,5 @@ def clean_df():
         del(x)
         del(match)
 
+# Apply cleaning tool
 clean_df()
