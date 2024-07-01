@@ -1,7 +1,7 @@
 # Tourist-Concentration-Zone-Management
 
 ## Introduction
-Welcome to the Tourist-Concentration-Zone-Management project repository. The primary aim of this project is to analyze data from sensors to identify and manage the most crowded areas in Lisbon, particularly focusing on tourist movement and traffic patterns. The methodology followed is CRISP-DM, which structures the data mining and analysis process.
+Welcome to the Tourist-Concentration-Zone-Management project repository. The primary aim of this project is to analyze data from sensors to identify and manage the most crowded areas in Lisbon, particularly focusing on tourist movement and traffic patterns. The methodology followed is CRISP-DM, which structures the data mining and analysis process. This project was carried out by not only me but also my colleagues and friends Catarina Brito, Luís Pereira and André Novo.
 
 ## Project Objectives
 ### Objective 1 - Impact of Strikes on Road Traffic:
